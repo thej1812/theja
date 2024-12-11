@@ -26,7 +26,7 @@ const TabNavigator = () => {
             iconName = 'map'; // Map icon
           }
 
-          return <Ionicons nama={iconName} size={size} color={color} />;
+          return <Ionicons name ={iconName} size={size} color={color} />;
         },
         tabBarActiveTintColor: 'green',
         tabBarInactiveTintColor: 'gray',
